@@ -16,7 +16,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+# Vagrant
+alias vm='cd ~/Infinite/Monitores/New/Vagrant && vagrant up'
+alias vh='cd ~/Infinite/Homestead && vagrant up'
+
 source ~/.git-prompt.sh
+source ~/.git-completion
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 
