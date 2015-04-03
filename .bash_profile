@@ -17,8 +17,8 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 # Vagrant
-alias vm='cd ~/Infinite/Monitores/New/Vagrant && vagrant up'
-alias vh='cd ~/Infinite/Homestead && vagrant up'
+alias vm='cd ~/Infinite/Monitores/New/Vagrant && vagrant up && vagrant ssh'
+alias vh='cd ~/Infinite/Homestead && vagrant up && vagrant ssh'
 
 source ~/.git-prompt.sh
 source ~/.git-completion
