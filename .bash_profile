@@ -2,6 +2,8 @@
 export NVM_DIR="/Users/montogeek/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+export PATH=/usr/local/php5/bin:$PATH
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -19,6 +21,7 @@ alias .....='cd ../../../..'
 # Vagrant
 alias vm='cd ~/Infinite/Monitores/New/Vagrant && vagrant up && vagrant ssh'
 alias vh='cd ~/Infinite/Homestead && vagrant up && vagrant ssh'
+alias ve='vagrant halt && exit'
 
 source ~/.git-prompt.sh
 source ~/.git-completion
