@@ -3,6 +3,8 @@ export NVM_DIR="/Users/montogeek/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH=/usr/local/php5/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
