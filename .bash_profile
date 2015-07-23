@@ -5,6 +5,7 @@ export NVM_DIR="/Users/montogeek/.nvm"
 export PATH=/usr/local/php5/bin:$PATH
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
+export EDITOR=/usr/bin/subl
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -13,6 +14,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 alias fc='sudo dscacheutil -flushcache'
 alias ls='ls -lhaG'
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
+alias ms='cd ~/Infinite/Monitores/New/Vagrant/source && git status'
 
 # up 'n' folders
 alias ..='cd ..'
