@@ -6,6 +6,7 @@ export PATH=/usr/local/php5/bin:$PATH
 export PATH=~/.composer/vendor/bin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 export EDITOR=/usr/bin/subl
+export HISTSIZE=""
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
